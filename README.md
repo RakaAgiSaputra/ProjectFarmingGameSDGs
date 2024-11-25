@@ -195,5 +195,135 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek **Farm Adventure**:
    git pull
 ```
 
+# 🌟 Flowchart Alur Game - Farm Adventure 🎮
+
+```mermaid
+flowchart TD
+    A[Mulai Permainan] --> B[Aruna Tiba di Desa Sejahtera]
+    B --> C[Berinteraksi dengan Pak Harun]
+    C --> D{Pilih Area Pemulihan}
+    D --> E1[Area 1: Lahan Pertanian]
+    D --> E2[Area 2: Rehabilitasi Hutan]
+    D --> E3[Area 3: Ekonomi Desa]
+
+    %% Cabang Area 1
+    E1 --> F1[Menanam dan Memanen Tanaman]
+    F1 --> G1[Bangun Sistem Irigasi]
+    G1 --> H1{Misi Selesai?}
+    H1 --> I1[Ya, Kembali ke Pilihan Area]
+    H1 --> F1[Belum, Selesaikan Misi]
+
+    %% Cabang Area 2
+    E2 --> F2[Menanam Pohon untuk Reboisasi]
+    F2 --> G2[Mengelola Cuaca Ekstrem]
+    G2 --> H2{Misi Selesai?}
+    H2 --> I2[Ya, Kembali ke Pilihan Area]
+    H2 --> F2[Belum, Selesaikan Misi]
+
+    %% Cabang Area 3
+    E3 --> F3[Bangun Pasar Lokal]
+    F3 --> G3[Mengembangkan Ekonomi Desa]
+    G3 --> H3{Misi Selesai?}
+    H3 --> I3[Ya, Kembali ke Pilihan Area]
+    H3 --> F3[Belum, Selesaikan Misi]
+
+    %% Selesai Permainan
+    I1 --> J{Semua Area Selesai?}
+    I2 --> J
+    I3 --> J
+    J --> K[Desa Kembali Sejahtera]
+    K --> L[Akhir Permainan]
+
+    %% Gaya Visual
+    style A fill:#FFD700,stroke:#333,stroke-width:2px
+    style B fill:#FFD700,stroke:#333,stroke-width:2px
+    style K fill:#87CEEB,stroke:#333,stroke-width:2px
+    style L fill:#87CEEB,stroke:#333,stroke-width:2px
+    classDef complete fill:#87CEEB,stroke:#333,stroke-width:2px;
+    class I1,I2,I3,J complete;
+```
+
+# **Farm Adventure: Petualangan Aruna**
+
+## 1. Mulai Permainan
+- Pemain memulai permainan sebagai **Aruna**, seorang petani muda yang baru tiba di **Desa Sejahtera**.
+- Desa Sejahtera dulunya makmur, tetapi kini terlantar akibat eksploitasi sumber daya yang berlebihan.
+- Pemain bertemu dengan **Pak Harun**, tetua desa yang memberikan gambaran tentang kondisi desa.
+- Pak Harun menjelaskan ada tiga area utama yang harus dipulihkan:
+  - **Area 1: Lahan Pertanian**
+  - **Area 2: Rehabilitasi Hutan**
+  - **Area 3: Ekonomi Desa**
+
+---
+
+## 2. Pilihan Area Pemulihan
+- Pemain bebas memilih salah satu dari tiga area untuk dipulihkan terlebih dahulu.
+- Setiap area memiliki **misi spesifik** dan **tantangan unik**:
+
+### a. **Area 1: Lahan Pertanian**
+- **Misi**:
+  - Membersihkan lahan dan mempersiapkannya untuk bercocok tanam.
+  - Menanam dan memanen berbagai tanaman organik.
+  - Membuat sistem irigasi hemat air untuk keberlanjutan.
+  - Menjual hasil panen ke pasar lokal untuk mendapatkan keuntungan.
+  
+### b. **Area 2: Rehabilitasi Hutan**
+- **Misi**:
+  - Melakukan reboisasi dengan menanam berbagai jenis pohon.
+  - Menghadapi tantangan cuaca ekstrem seperti badai dan kemarau.
+  - Mengelola sumber daya agar pohon yang ditanam dapat tumbuh dengan baik.
+  
+### c. **Area 3: Ekonomi Desa**
+- **Misi**:
+  - Membangun pasar lokal untuk mendukung ekonomi masyarakat.
+  - Bekerja sama dengan NPC seperti **Bu Nina** untuk meningkatkan perdagangan.
+  - Membantu masyarakat memasarkan hasil pertanian mereka.
+
+---
+
+## 3. Progresi dan Penyelesaian
+- **Progress Bar**: Setiap area memiliki progress bar yang menunjukkan kemajuan misi.
+- Setelah menyelesaikan satu area, pemain kembali ke Desa Sejahtera untuk memilih area lain.
+- Semua area harus diselesaikan untuk mencapai akhir permainan.
+
+---
+
+## 4. Akhir Permainan
+- Setelah semua area dipulihkan:
+  - Desa kembali menjadi **makmur** dengan pertanian hemat air, hutan hijau, dan ekonomi stabil.
+  - Pemain mendapat pujian dari NPC seperti **Pak Harun**, **Nala**, dan **Bu Nina** atas keberhasilannya.
+- **Pesan Moral**:
+  - Pentingnya pengelolaan sumber daya yang bijak.
+  - Keberlanjutan lingkungan.
+  - Perdagangan yang adil.
+
+---
+
+## **Elemen Penting dalam Alur**
+
+### 1. **Pilihan Pemain**
+- Pemain bebas memilih urutan penyelesaian area, memberikan fleksibilitas dan pengalaman yang personal.
+
+### 2. **Interaksi dengan NPC**
+- Pemain berinteraksi dengan NPC untuk mendapatkan:
+  - **Panduan.**
+  - **Cerita tambahan.**
+  - **Reward.**
+
+### 3. **Tantangan dan Reward**
+- **Tantangan**:
+  - Cuaca ekstrem (kemarau, badai).
+  - Pengelolaan sumber daya seperti air, pupuk, dan uang.
+- **Reward**:
+  - Keuntungan dari hasil panen.
+  - Peningkatan ekonomi dan kesejahteraan desa.
+
+---
+
+## **Pesan Akhir**
+Farm Adventure memberikan edukasi tentang:
+- Pentingnya **pertanian berkelanjutan**.
+- Dampak **eksploitasi sumber daya** terhadap lingkungan.
+- Manfaat **perdagangan adil** dalam membangun ekonomi yang kuat.
 
 
